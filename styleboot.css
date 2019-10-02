@@ -1,14 +1,24 @@
-img {
-
-width: 100%;
+body {
+	width: 100%;
+	margin: auto;
+	background-color: black;
 }
 .ruzove {
 	
+	/*flex: 100%;*/
+	position: relative;
+	margin: 50px;
+	top: 50px;
+	width: 150px;
+	left: 40%;
 	
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+
+
+	
+
+    
+    
+    /*transform: translate(-50%, 50%);*/
 
 } 
 .btn {
@@ -31,4 +41,23 @@ h5, p {
 }
 .card {
 	height: 50%;
+}
+.cover {
+	background-image: url(minimalizmus.jpg);
+	
+	display: flex;
+    /*align-items: center;
+	justify-content: center;*/
+	height: 80vh;
+	background-size: cover;
+	flex-direction: column;
+	width: auto;
+	
+}
+h1 {
+	position: relative;
+	left: 40%;
+	top: 200px;
+	
+	
 }
