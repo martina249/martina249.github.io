@@ -1,7 +1,7 @@
 body {
-	width: 100%;
-	margin: auto;
-	background-color: black;
+	margin: 0;
+
+	
 }
 .ruzove {
 	
@@ -51,6 +51,8 @@ h5, p {
 	height: 80vh;
 	background-size: cover;
 	flex-direction: column;
+	
+    justify-content: center;
 	
 	
 }
