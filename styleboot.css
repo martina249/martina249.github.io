@@ -1,5 +1,21 @@
+.navigacia {
+	display: flex;
+    list-style: none;
+    margin: 10px;
+    font-size: 0.7em;
+	padding: 10px;
+	
+	
+}
+li {
+	padding: 20px;
+	font-size: 30px;
+}
 body {
-	margin: 0;
+	/*margin-left: auto;
+	margin-right: auto;
+	width: 1000px;*/
+	
 
 	
 }
@@ -10,13 +26,7 @@ body {
 	margin: 50px;
 	top: 50px;
 	width: 150px;
-	left: 40%;
-	
-
-
-	
-
-    
+	left: 0%   
     
     /*transform: translate(-50%, 50%);*/
 
@@ -42,12 +52,15 @@ h5, p {
 .card {
 	height: 50%;
 }
+
+
+
 .cover {
 	background-image: url(minimalizmus.jpg);
-	
+	background-position-x: 80px;
 	display: flex;
-    /*align-items: center;
-	justify-content: center;*/
+    align-items: center;
+	
 	height: 80vh;
 	background-size: cover;
 	flex-direction: column;
@@ -55,11 +68,12 @@ h5, p {
     justify-content: center;
 	
 	
-}
+}*/
+
 h1 {
 	position: relative;
 	left: 40%;
 	top: 200px;
-	
+	width: 100%;
 	
 }
